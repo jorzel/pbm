@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<main class="container margin-top-50 margin-bottom-50">
+		<h3>Tu admini będą wrzucać aktualne informacje o platformie</h3>
+		{% for item in news %}
+		<h3>
+			{{ item.title }}
+		</h3>
+		<p>
+			{{ item.content|safe }}
+		</p>
+	{% endfor %}
+	</main>
+{% endblock content %}
+

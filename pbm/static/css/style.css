@@ -1,0 +1,27 @@
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.border-top {
+border-top: 8px solid #78767D;
+}
+
+.logo {
+    width:100%;
+    height:auto;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', Sans-serif;
+}
+
